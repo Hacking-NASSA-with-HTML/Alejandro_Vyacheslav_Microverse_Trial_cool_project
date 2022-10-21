@@ -8,6 +8,7 @@ body {
     width: 1024px; */
     margin: 0px;
     padding: 0px;
+    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
@@ -22,6 +23,7 @@ body {
     min-height: 50px;
     box-shadow: 0 0 15px #00214B;
     height: 8vh;
+    position: fixed;
 }
 
 #header-img {
@@ -75,28 +77,37 @@ body {
     flex-direction: column; */
 }
 
-#firstSection {
+#features {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
+    height: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
     background-color: #def62d;
     text-align: center;
     scroll-behavior: smooth;
 }
 
-#secondSection {
+#how-it-works {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
+    height: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
     background-color: #f62d2d;
     text-align: center;
     scroll-behavior: smooth;
 }
 
-#thirdSection {
+#pricing {
     display: flex;
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
+    height: 1000px;
+    margin-top: 100px;
+    padding-top: 100px;
     background-color: #2d9ff6;
     text-align: center;
 }
