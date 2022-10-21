@@ -45,7 +45,7 @@ body {
 }
 
 .nav-link {
-    padding: 0 60px;
+    /* padding: 0 60px; */
     color: #282626;
     text-decoration: none;
     list-style: none;
@@ -55,7 +55,7 @@ body {
 }
 
 .nav-link a {
-    padding: 0 50px;
+    /* padding: 0 50px; */
     color: #282626;
     text-decoration: none;
     list-style: none;
