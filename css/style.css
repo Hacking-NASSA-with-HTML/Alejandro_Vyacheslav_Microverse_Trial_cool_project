@@ -1,15 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 1024px; */
     margin: 0 auto;
     padding: 0px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
@@ -17,14 +18,90 @@ body {
     display: flex;
     top: 0;
     flex-wrap: nowrap;
-    /* margin: 0 auto; */
     align-items: center;
     margin-bottom: 5vh;
-
     min-height: 50px;
     box-shadow: 0 0 15px #00214B;
     height: 8vh;
     position: fixed;
+}
+
+#header-img {
+    width: 450px;
+    display: block;
+    margin-right: auto;
+    border: black solid 1px;
+}
+
+#nav-bar {
+    margin-right: 1vw;
+    top: 0;
+    width: 43vw;
+}
+
+.navbBar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-link {
+    color: #282626;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-link a {
+    color: #282626;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#header-img {
+    width: 450px;
+    display: block;
+    margin-right: auto;
+    border: black solid 1px;
+}
+
+#nav-bar {
+    margin-right: 1vw;
+    top: 0;
+    width: 43vw;
+}
+
+.navbBar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-link {
+    color: #282626;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-link a {
+    color: #282626;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#sectionContainer {
+    height: 1000px;
 }
 
 #videoElement {
@@ -43,91 +120,36 @@ body {
     margin-top: 25vh;
 }
 
-#header-img {
-    /* margin: 5vh 0 5vh 0; */
-    /* padding: 5vh 0 5vh 0; */
-    width: 450px;
-    display: block;
-    margin-right: auto;
-    border: black solid 1px;
-}
-
-#nav-bar {
-    /* display: block; */
-    /* position: fixed; */
-    margin-right: 1vw;
-    top: 0;
-    width: 43vw;
-    /* background: rgb(0, 0, 255, 0.7); */
-    /* z-index: 2; */
-}
-
-.navbBar {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.nav-link {
-    /* padding: 0 60px; */
-    color: #282626;
-    text-decoration: none;
-    list-style: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.nav-link a {
-    /* padding: 0 50px; */
-    color: #282626;
-    text-decoration: none;
-    list-style: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 30px;
-}
-
-#mainBlock {
-    scroll-behavior: smooth;
-    /* display: block; */
-    display: flex;
-    flex-direction: column;
+.sectionHeadline {
+    width: 100%;
+    text-align: center;
 }
 
 #features {
     display: flex;
-    width: 100vw;
-    /* height: 90vh; */
+    width: auto;
     height: 1000px;
     margin-top: 100px;
     padding-top: 100px;
     background-color: #def62d;
-    text-align: center;
-    scroll-behavior: smooth;
 }
 
 #how-it-works {
     display: flex;
-    width: 100vw;
-    /* height: 90vh; */
+    width: auto;
     height: 1000px;
     margin-top: 100px;
     padding-top: 100px;
     background-color: #f62d2d;
-    text-align: center;
-    scroll-behavior: smooth;
 }
 
 #pricing {
     display: flex;
-    width: 100vw;
-    /* height: 90vh; */
+    width: auto;
     height: 1000px;
     margin-top: 100px;
     padding-top: 100px;
     background-color: #2d9ff6;
-    text-align: center;
 }
 
 
@@ -139,8 +161,12 @@ body {
 /*****************************                                          ***********/
 
 @media (max-width: 768px) {
-    #video {
-        /* width="560" height="315" */
+
+    /* #video {
+        width: 315px;
+        height: 178px;
+    } */
+    iframe {
         width: 315px;
         height: 178px;
     }
