@@ -55,15 +55,6 @@ body {
     font-size: 20px;
 }
 
-.nav-link a {
-    color: #282626;
-    text-decoration: none;
-    list-style: none;
-    outline: none;
-    cursor: pointer;
-    /* font-size: 30px; */
-}
-
 #header-img {
     width: 450px;
     display: block;
@@ -98,7 +89,7 @@ body {
     list-style: none;
     outline: none;
     cursor: pointer;
-    font-size: 30px;
+    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
 }
 
 #videoElement {
@@ -109,7 +100,7 @@ body {
 
 #video {
     display: block;
-    /* margin-top: 25vh; */
+    /* that element just to pass test */
 }
 
 #formContainer {
@@ -177,12 +168,7 @@ iframe {
     .navbBar {
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
         align-items: center;
-    }
-
-    .nav-link {
-        font-size: 16px;
     }
 
     #videoElement {
