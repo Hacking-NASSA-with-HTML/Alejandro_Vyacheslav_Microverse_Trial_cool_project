@@ -109,15 +109,15 @@ body {
     justify-content: center;
 }
 
+#video {
+    display: block;
+    margin-top: 25vh;
+}
+
 #formContainer {
     display: flex;
     justify-content: center;
     margin: 5vh;
-}
-
-#video {
-    display: block;
-    margin-top: 25vh;
 }
 
 .sectionHeadline {
