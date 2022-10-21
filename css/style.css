@@ -8,6 +8,7 @@ body {
     width: 1024px; */
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -28,7 +29,7 @@ body {
     /* padding: 5vh 0 5vh 0; */
     width: 450px;
     display: block;
-    margin-right:  auto;
+    margin-right: auto;
     border: black solid 1px;
 }
 
@@ -65,4 +66,28 @@ body {
     outline: none;
     cursor: pointer;
     font-size: 30px;
+}
+
+#firstSection {
+    display: block;
+    width: 100vw;
+    height: 90vh;
+    background-color: #def62d;
+    text-align: center;
+}
+
+#secondSection {
+    display: block;
+    width: 100vw;
+    height: 90vh;
+    background-color: #f62d2d;
+    text-align: center;
+}
+
+#thirdSection {
+    display: block;
+    width: 100vw;
+    height: 90vh;
+    background-color: #2d9ff6;
+    text-align: center;
 }
