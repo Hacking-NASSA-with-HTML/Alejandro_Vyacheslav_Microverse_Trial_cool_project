@@ -32,6 +32,12 @@ body {
     justify-content: center;
 }
 
+#formContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+}
+
 #video {
     display: block;
     margin-top: 25vh;
