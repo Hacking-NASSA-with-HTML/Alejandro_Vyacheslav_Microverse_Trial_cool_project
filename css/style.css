@@ -26,6 +26,10 @@ body {
     position: fixed;
 }
 
+#video{
+    margin-top: 17vh;
+}
+
 #header-img {
     /* margin: 5vh 0 5vh 0; */
     /* padding: 5vh 0 5vh 0; */
