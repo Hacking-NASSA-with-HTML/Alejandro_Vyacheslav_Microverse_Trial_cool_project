@@ -6,7 +6,7 @@ body {
     justify-content: center;
     margin: 0 auto;
     width: 1024px; */
-    margin: 0px;
+    margin: 0 auto;
     padding: 0px;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -15,6 +15,7 @@ body {
 #header {
     width: 100vw;
     display: flex;
+    top: 0;
     flex-wrap: nowrap;
     /* margin: 0 auto; */
     align-items: center;
@@ -26,7 +27,13 @@ body {
     position: fixed;
 }
 
+#videoElement {
+    display: flex;
+    justify-content: center;
+}
+
 #video {
+    display: block;
     margin-top: 25vh;
 }
 
@@ -52,6 +59,7 @@ body {
 .navbBar {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .nav-link {
