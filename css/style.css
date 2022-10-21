@@ -35,6 +35,7 @@ body {
 #nav-bar {
     /* display: block; */
     /* position: fixed; */
+    margin-right: 1vw;
     top: 0;
     width: 43vw;
     /* background: rgb(0, 0, 255, 0.7); */
