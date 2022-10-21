@@ -171,6 +171,10 @@ iframe {
         align-items: center;
     }
 
+    .navbBar li {
+        margin: 5px;
+    }
+
     #videoElement {
         margin-top: 35vh;
     }
