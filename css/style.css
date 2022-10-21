@@ -22,6 +22,7 @@ body {
     min-height: 50px;
     box-shadow: 0 0 15px #00214B;
     height: 8vh;
+    position: fixed;
 }
 
 #header-img {
@@ -70,9 +71,9 @@ body {
 
 #mainBlock {
     scroll-behavior: smooth;
-    display: block;
-    /* display: flex;
-    flex-direction: column; */
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
 }
 
 #firstSection {
