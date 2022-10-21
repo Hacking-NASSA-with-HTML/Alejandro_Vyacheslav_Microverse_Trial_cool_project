@@ -6,13 +6,15 @@ body {
     justify-content: center;
     margin: 0 auto;
     width: 1024px; */
+    margin: 0px;
+    padding: 0px;
 }
 
 #header {
     width: 100vw;
     display: flex;
     flex-wrap: nowrap;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     align-items: center;
     margin-bottom: 5vh;
 
