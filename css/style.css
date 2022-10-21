@@ -100,10 +100,6 @@ body {
     font-size: 30px;
 }
 
-#sectionContainer {
-    height: 1000px;
-}
-
 #videoElement {
     display: flex;
     justify-content: center;
